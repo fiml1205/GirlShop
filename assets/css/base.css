@@ -1,0 +1,56 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Responsive */
+.grid {
+    max-width: 100%;
+    margin: 0 160px;
+}
+
+.grid__full-width{
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+:root {
+    --primary-color: #f53e2d;
+}
+
+.btn {
+    min-width: 120px;
+    height: 35px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.select__input-icon {
+    margin: 0 15px 0 5px;
+    color: #f53e2d;
+}
+
+
+
+
